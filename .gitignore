@@ -1,1 +1,10 @@
-/build/
+/build/ 
+/target/ 
+*.class 
+.classpath 
+.project 
+/.settings/ 
+/.idea/ 
+*.iml 
+/out/ 
+logs/ 
