@@ -87,7 +87,7 @@ String username = "root";
 String password = "root";
 ```
 
-> ✅ Suggestion: Move DB credentials to **application.properties** or environment variables for security.
+
 
 ---
 
@@ -128,11 +128,9 @@ String password = "root";
 
 ---
 
-## 📦 Future Improvements (as discussed)
+## 📦 Future Improvements 
 
 * Convert to **Maven Project** (`pom.xml`)
-* Use **Connection Pooling (HikariCP or JNDI)** instead of DriverManager
-* Add **Logs (SLF4J + Logback)**
 * Add **Pagination + Search**
 * Add validation using **Jakarta Bean Validation (Hibernate Validator)**
 
